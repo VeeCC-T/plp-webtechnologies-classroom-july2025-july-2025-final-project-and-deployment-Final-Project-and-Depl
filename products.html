@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Products & Services — Vee Ikyumeh</title>
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <button id="menu-toggle" aria-label="Menu" class="btn-ghost">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="products.html" aria-current="page">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="dark-toggle" class="btn-ghost">🌓</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Products & Services</h1>
+
+  <section>
+    <h2>Digital Health Solutions</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="assets/ai-assistant.jpg" alt="AI Health Assistant">
+        <h3>AI Health Assistant</h3>
+        <p>Prototype conversational AI for health guidance and accessibility.</p>
+      </div>
+      <div class="card">
+        <img src="assets/multihealth.jpg.webp" alt="MultiHealth Hub">
+        <h3>MultiHealth Hub</h3>
+        <p>A one-stop health site for both online and offline services.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Learning & Training</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="assets/course-outline.jpg" alt="Course Outline">
+        <h3>Beginner-Friendly Software Engineering Course</h3>
+        <p>Planned online course with step-by-step coding guidance.</p>
+      </div>
+      <div class="card">
+        <img src="assets/mentorship.jpg" alt="Mentorship">
+        <h3>Mentorship & Advising</h3>
+        <p>Guidance for students and early professionals in health-tech and coding.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Vee Ikyumeh</p>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+<script src="js/script.js"></script>
+</body>
+</html>

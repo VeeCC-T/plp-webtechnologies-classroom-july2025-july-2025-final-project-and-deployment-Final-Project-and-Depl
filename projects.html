@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects — Vee Ikyumeh</title>
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <button id="menu-toggle" aria-label="Menu" class="btn-ghost">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="dark-toggle" class="btn-ghost">🌓</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Projects</h1>
+  <div class="grid">
+    <div class="card">
+      <img src="assets/student-database.jpg.webp" alt="Student Records Database">
+      <h3>Student Records Database</h3>
+      <p>Helps schools reduce paper records, secure storage, and quick retrieval.</p>
+    </div>
+    <div class="card">
+      <img src="assets/clinic-booking.jpg" alt="Clinic Booking System">
+      <h3>Clinic Booking Database</h3>
+      <p>Efficient scheduling, preventing double-bookings, and logging patient visits.</p>
+    </div>
+    <div class="card">
+      <img src="assets/ai-assistant.jpg" alt="AI Health Assistant">
+      <h3>AI Health Assistant (Ongoing)</h3>
+      <p>A conversational AI that supports symptom checks and multilingual health consultations.</p>
+    </div>
+    <div class="card">
+      <img src="assets/multihealth.jpg.webp" alt="MultiHealth Hub">
+      <h3>MultiHealth Hub (Planned)</h3>
+      <p>One-stop health site for online/offline services and accessibility.</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Vee Ikyumeh</p>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<<<<<<< HEAD
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Vee Ikyumeh</title>
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <button id="menu-toggle" aria-label="Menu" class="btn-ghost">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><button id="dark-toggle" class="btn-ghost">🌓</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Contact Me</h1>
+  <form>
+    <label>Name<input type="text" required></label>
+    <label>Email<input type="email" required></label>
+    <label>Message<textarea required></textarea></label>
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+
+  <h2>Other Ways</h2>
+  <p>Email: <a href="mailto:rachelikyumeh22@gmail.com">rachelikyumeh22@gmail.com</a></p>
+  <p>LinkedIn: <a href="http://linkedin.com/in/veronica-ikyumeh-a58009157">linkedin.com/in/veronica-ikyumeh-a58009157</a></p>
+  <p>GitHub: <a href="https://github.com/VeeCC-T">github.com/VeeCC-T</a></p>
+  <p>Twitter: <a href="https://x.com/silvia_ikyumeh?s=21">@silvia_ikyumeh</a></p>
+  <a href="assets/Veronica_Ikyumeh_CV_HealthTech.pdf" class="btn btn-primary" download>📄 Download My Resume</a>
+
+  <!-- Ratings Section -->
+  <section class="ratings">
+    <h2>Rate My Portfolio</h2>
+    <p>Your feedback helps me improve! Please rate your experience:</p>
+    <form id="rating-form">
+      <label for="rating">Your Rating (1–5):</label>
+      <input type="number" id="rating" name="rating" min="1" max="5" required>
+      <label for="feedback">Your Feedback:</label>
+      <textarea id="feedback" name="feedback" required></textarea>
+      <button type="submit" class="btn btn-primary">Submit Rating</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Vee Ikyumeh</p>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+<script src="js/script.js"></script>
+</body>
+</html>
+=======
+<main>
+  <section>
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</main>
+>>>>>>> 72f6c08ef52669dd9bc3e9914e79d88a5cd9465a
